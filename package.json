@@ -8,6 +8,7 @@
     "examples/**"
   ],
   "scripts": {
+    "prepare": "npm run build",
     "build": "grunt",
     "test": "grunt test",
     "grunt": "node node_modules/grunt/bin/grunt",
